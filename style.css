@@ -28,7 +28,31 @@ html, body{
     color: #fff;
     text-align: center;
     margin-top: 40vh;
+    font-size: 1.5rem;
 }
+.i-f, .i-s, .i-t {
+    display: inline-block;
+}
+.i-f{
+    animation: 2.3s fadeOut forwards;
+}
+.i-s{
+    animation: 2.3s fadeOut forwards;
+}
+.i-t{
+    animation: 2.3s fadeOut forwards .2s;
+}
+@keyframes fadeOut {
+    50%{
+        transform: none;
+        opacity: 100%;
+    }
+    100%{
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+}
+
 @keyframes intro {
     75% {
         opacity: 100%;
