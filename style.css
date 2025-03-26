@@ -40,7 +40,7 @@ html, body{
     animation: 2.3s fadeOut forwards;
 }
 .i-s{
-    animation: 2.3s fadeOut forwards;
+    animation: 2.3s fadeOut forwards .1s;
 }
 .i-t{
     animation: 2.3s fadeOut forwards .2s;
@@ -59,7 +59,6 @@ html, body{
 @keyframes intro {
     75% {
         opacity: 100%;
-        pointer-events: auto;
     }
     100% {
         opacity: 0;
