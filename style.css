@@ -12,7 +12,7 @@ html, body{
 }
 @keyframes fadeIn {
     100% {
-        opacity: 100%;
+        opacity: 1;
     }
 }
 .intro{
@@ -33,16 +33,16 @@ html, body{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
-.i-f, .i-s, .i-t {
+.i-first, .i-second, .i-third {
     display: inline-block;
 }
-.i-f{
+.i-first{
     animation: 2.3s fadeOut forwards;
 }
-.i-s{
+.i-second{
     animation: 2.3s fadeOut forwards .1s;
 }
-.i-t{
+.i-third{
     animation: 2.3s fadeOut forwards .2s;
 }
 @keyframes fadeOut {
@@ -58,7 +58,7 @@ html, body{
 
 @keyframes intro {
     75% {
-        opacity: 100%;
+        opacity: 1;
     }
     100% {
         opacity: 0;
